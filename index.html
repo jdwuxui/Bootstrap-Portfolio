@@ -1,42 +1,100 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Responsive Portfolio</title> 
-    <!-- CSS Style Sheet -->
-    <link rel="stylesheet" href="style.css">
+    <title>Jared Williams Student Bio</title>
+
+  <!-- Latest compiled and minified CSS -->   
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">  
 </head>
 
 <body> 
-    <header> 
-        <div class="flex-grow"><div><p>Header</p></div>
-    </header>
-    
-    <nav>
-        <div class="flex-grow"><div><p>Nav</p></div>
+    <!-- Nav --> 
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <span class="navbar-brand"><h5>JARED WILLIAMS</h5></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">|</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <a class="nav-link">|</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
     </nav>
 
-    <div class="flex-container"> 
-       
-          <div style="flex-grow: 3" id="left-div">        
-            <section><p>Section</p>   
-              <article>
-                <p class="art-li">Article</p>
-                <p>p</p>
-                <p id="bold">h1, h2, h3</p>
-                <br>
-              </article>  
-            </section>   
-          </div>         
+    <!-- Main Content -->    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8"> 
+              <h1>About Me</h1> 
+              <hr> 
+                  <div class="row">
+                      <img class="img-fluid" id="bio-image" src="assets/images/jared-and-pups.JPG" alt="Responsive image">
 
-          <div style="flex-grow: 1" id="aside"><p>Aside</p></div>   
-    </div> 
-                            
-    <footer>
-      <div class="flex-grow"><div><p>Footer</p></div>
-    </footer>
+                      <p>I grew up in the outer suburbs of New York and moved to Florida to attend college. After earning an advertising and design technology degree I began my career as a graphic designer for a real estate broker. I eventually transitioned into the large format printing industry and made my way to becoming an art director for a small design studio specializing in vehicle wraps.</p>
+                                
+                      <p>In 2007, I started another design-centric role that evolved into a marketing director and creative director position for the 22nd largest staffing company at the time along with its 22 sister companies.</p>
+                    
+                      <p>The year 2011 made its way around and I accepted a position working with a youth football organization doing UI, UX, visual design, and copywriting.</p>
+
+                
+
+                </div>
+            </div>
+        </div> 
+    </div><!-- Close Container -->
+ 
+    <!-- Aside 
+          <div class="col-lg-3">
+              <h4>LET'S CONNECT</h4>                
+              <div class="list-group">
+                  <ul class="list-group list-group-flush">
+                    <a href="https://www.linkedin.com/in/jareddwilliams/" target="_blank" class="list-group-item list-group-item-action">LinkedIn</a>
+                      
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action">GitHub</a>
+
+                    <a href="https://www.workofjared.com" target="_blank" class="list-group-item list-group-item-action">Artwork</a>
+                  </ul>
+              </div>
+          </div> -->
+            
+    <!-- Footer --> 
+    <div class="fixed-bottom">
+        <div class="row">
+            <footer class="footer"> 
+              <p>Copyright©</p>
+            </footer>
+        </div>     
+    </div>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
 
 </body>
+
 </html>

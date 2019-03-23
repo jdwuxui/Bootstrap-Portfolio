@@ -1,0 +1,97 @@
+body {
+  /* Margin bottom by footer height */
+  color: #777777;
+  background-color: #cccccc;
+  margin-bottom: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/bananas.png);
+  background-position: center;
+  background-repeat: repeat;
+}
+  
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem; 
+  padding-top: 2rem;
+  border-top-style: solid;
+  border-top-color: #4aaaa5;
+  border-top-width: .35rem;
+  background-color: #666666;
+  color: #dddddd;
+} 
+
+/* Text and fonts */
+hr {
+    border-color: #dadada;
+    border-width: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', Times, serif;
+  color: #4aaaa5;
+  padding-top: 1rem;
+}
+
+
+#bio-image {
+  margin-bottom: 2rem;
+  max-height: 150px;
+  overflow-inline: auto;
+}
+
+/* Portfolio */
+.label-centered {
+    position: relative;
+    top: 80%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100%;
+    padding: 1rem;
+  }
+
+h5 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 0 0;
+  }
+
+.navbar {
+  padding: 0;
+  border-bottom-color: #cccccc;
+  border-bottom-style: solid;
+  border-bottom-width: .05rem;
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.container {
+  max-width: 980px;
+  max-width: 950px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;  
+}
+
+.col-lg-8, .col-lg-12 {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #dddddd;
+  border-width: 2px;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+}
